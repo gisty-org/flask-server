@@ -2,9 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
 import json
 import requests
-# from palak import summarizer_util_p
-from saif import summarizer_util_sk
-# from sarakshi import summarizer_util_sp
+from summarizer import summarizer_util
 import os
 from os.path import join, dirname
 # from dotenv import load_dotenv

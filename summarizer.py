@@ -46,7 +46,7 @@ def get_sent_scores(sentence_list, word_frequencies):
     return sentence_scores
 
 
-def summarizer_util_sk(file_data, sents_in_summary):
+def summarizer_util(file_data, sents_in_summary):
     #print('sents_in_summary: ', type(sents_in_summary))
     #file = open(file_name, "r")
     #file_data = file.readlines()
